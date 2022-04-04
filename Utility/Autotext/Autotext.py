@@ -1,10 +1,10 @@
-#imports 
+# import libarys
 import time
 import keyboard as k
 from pynput.keyboard import Key
 from pynput.keyboard import Controller
 
-#UCV (User controlled variables)
+# setting up general settings
 keyboard = Controller()
 text = str(input("Text -> "))
 number_of_runs = int(input("Count -> "))
@@ -12,7 +12,6 @@ pause = float(input("Delay (seconds) -> "))
 exit = str(input("Key to exit -> "))
 time.sleep(5)
 runs = 0
-
 
 while runs < number_of_runs:
     if k.is_pressed(exit):
