@@ -1,13 +1,5 @@
-from colored import fg, bg, attr
-reset = attr('reset')
-
-from glob import glob
-
-
-
-color_x = fg('#C41E3A')
-color_o = fg('#336BFF')
-
+# TicTacToe
+# by Mathis 
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 player_1 = color_x + "X" + reset
