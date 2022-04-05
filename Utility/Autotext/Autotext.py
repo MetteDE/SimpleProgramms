@@ -1,3 +1,6 @@
+# Autotext
+# by Mathis 
+
 import time
 import keyboard as k
 from pynput.keyboard import Key
