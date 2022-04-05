@@ -1,10 +1,8 @@
-# import libarys
 import time
 import keyboard as k
 from pynput.keyboard import Key
 from pynput.keyboard import Controller
 
-# setting up general settings
 keyboard = Controller()
 text = str(input("Text -> "))
 number_of_runs = int(input("Count -> "))
