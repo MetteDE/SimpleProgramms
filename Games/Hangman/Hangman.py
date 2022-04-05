@@ -1,3 +1,6 @@
+# Hangman
+# by Mathis 
+
 import random
 from wordlist import word_list
 
