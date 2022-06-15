@@ -1,5 +1,5 @@
 # SimpleProgramms
-A collection of simple programms written mostly in python
+A collection of simple command line programms written in python
 
 
 ## Games 
